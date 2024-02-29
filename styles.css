@@ -138,6 +138,7 @@ body {
 /* button */
 
 .button {
+  /* position: sticky; */
   position: fixed;
   width: 222px;
   height: 40px;
