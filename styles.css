@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* reset */
+*,
+::before,
+:after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+.parent {
+  position: relative;
+  width: 393px;
+  height: 770px;
+  max-height: 790px;
+  padding: 16px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  /* border: 2px solid blue; */
+  border-radius: 16px;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  row-gap: 155px;
+}
+/* header */
+.intro,
+.header {
+  position: relative;
+  height: auto;
+}
+.imgDIv {
+  width: 361px;
+  height: 160px;
+  margin: 0 auto;
+  text-align: center;
+}
+.imgDIv > img {
+  width: 100%;
+}
+
+.profileDiv {
+  position: absolute;
+  width: 361px;
+  height: auto;
+  text-align: center;
+  /* border: 2px solid red; */
+  top: 94.5px;
+  left: 0px;
+  right: 0;
+  margin: 0 auto;
+}
+.profile-img {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.profileDiv > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+}
+.profileDiv > p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ababab;
+  margin-top: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.profileDiv > h6 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+}
+/* content */
+.content {
+  font-family: "Montserrat", sans-serif;
+}
+.content > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #666666;
+  padding: 0 10px;
+}
+.cards {
+  width: 361px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+  padding-left: 0 10px;
+  padding-bottom: 60px;
+}
+.card {
+  max-width: 100px;
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.cardImg {
+  width: 100px;
+  height: 100px;
+}
+.cardImg > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card > p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #202020;
+}
+
+/* button */
+
+.button {
+  position: fixed;
+  width: 222px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #d99d02;
+  color: #ffffff;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  /*  */
+  padding: 8px 40px 8px 40px;
+  border-radius: 32px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 3px;
+}
